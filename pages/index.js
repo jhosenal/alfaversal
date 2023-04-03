@@ -1,11 +1,8 @@
-import React from 'react';
+import React from "react";
+import Home from "../src/onepirate-theme/Home";
 
-const Index = () => {
-  return (
-    <div>
-      <h1>Hello, Next.js!</h1>
-    </div>
-  );
-};
+function Index() {
+  return <Home />;
+}
 
 export default Index;
